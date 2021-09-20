@@ -9,7 +9,7 @@ public class Main {
     public static String path;
 
     public static void main(String[] args) {
-        if(args.length == 0){
+        if(args.length != 3){
             System.err.println("Server needs directory of file, ip-address, port in the Program arguments\nExample: java -jar ClientFileSenderTCP.jar /home/kirill/Networks/SendFileTCP/Irtegov.pdf 127.0.1.1 8080");
         }
         else{
